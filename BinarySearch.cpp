@@ -59,7 +59,20 @@ void display()
         cout << element[j];
         if (j < nPanjang - 1)
         {
-            
+            cout << " --> ";
         }
+    }
+    cout << endl;
+}
+
+void binarySearch()
+{
+    char ulang;
+    do 
+    {
+        cout << "\n================================\n";
+        cout << "     Pencarian Binary Search      \n";
+        cout << "Masukkan elemen yang ingin dicari : ";
+        cin >> x;
     }
 }
