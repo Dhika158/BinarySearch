@@ -36,6 +36,12 @@ void bubbleSortArray()
     int pass = 1;
     do
     {
-        
+        for (int j = 0; j <= nPanjang - 1 - pass; j++)
+        {
+            if (element[j] > element[j + 1])
+            {
+                int temp = element[j];
+            }
+        }
     }
 }
